@@ -1,0 +1,29 @@
+{
+  "name": "miniskirt",
+  "version": "0.0.1",
+  "description": "Lightweight ES2016 object and array operations lodash alternative",
+  "main": "index.js",
+  "types": "types.d.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcperez-ch/miniskirt.git"
+  },
+  "keywords": [
+    "lodash",
+    "array",
+    "tool",
+    "tool",
+    "belt",
+    "tool",
+    "miniskirt"
+  ],
+  "author": "JC Perez Chavez <jc.perezchavez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcperez-ch/miniskirt/issues"
+  },
+  "homepage": "https://github.com/jcperez-ch/miniskirt#readme"
+}

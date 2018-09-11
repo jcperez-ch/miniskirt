@@ -1,0 +1,20 @@
+# Development workspace files
+.DS_Store
+.idea
+.vscode
+
+# Third party libraries
+node_modules
+
+# Development/build artifacts
+.tmp
+dist
+lib
+
+# Localization
+
+# Testing artifacts
+
+# NodeJS files
+npm-debug.log
+yarn-error.log
