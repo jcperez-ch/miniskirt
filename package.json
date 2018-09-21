@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "Lightweight ES2016 object and array operations lodash alternative",
   "main": "index.js",
+  "module": "index.js",
+  "dev:main": "index.js",
   "types": "types.d.js",
   "scripts": {
     "test": "jest"

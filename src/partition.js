@@ -2,6 +2,7 @@ const arrayPartitionReducer = (partitionFn) =>
   ([truthy, falsey], item, key) => partitionFn(item, key)
     ? [[...truthy, item], falsey]
     : [truthy, [...falsey, item]];
+
 const objPartitionReducer = (partitionFn) =>
 ([truthy, falsey], item, key) => partitionFn(item, key)
   ? [{ ...truthy, [key]: item }, falsey]
