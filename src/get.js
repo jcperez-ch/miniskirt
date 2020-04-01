@@ -8,7 +8,7 @@ export const get = (reference, selector, defaultValue) => {
     if (typeof newReference === 'object' && Object.keys(newReference).length) {
       return get(newReference, newSelector.join('.'), defaultValue)
     }
-    return defaultValue;
+    return defaultValue
   }
-  return defaultValue;
+  return defaultValue
 }

@@ -1,1 +1,1 @@
-export const duplicates = (arrayOne, arrayTwo) => arrayOne.filter(value => arrayTwo.includes(value));
+export const duplicates = (arrayOne, arrayTwo) => arrayOne.filter((value) => arrayTwo.includes(value))
