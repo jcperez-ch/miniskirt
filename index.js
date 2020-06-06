@@ -1,5 +1,6 @@
 export * from './src/chunk'
 export * from './src/compact'
+export * from './src/deep_compare'
 export * from './src/diff'
 export * from './src/duplicates'
 export * from './src/every'

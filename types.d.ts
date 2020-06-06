@@ -7,6 +7,7 @@ export type ObjectShortrCircuitFn = (object: any, fn: ObjectShortCircuitIterator
 
 export const chunk: (array: any[], size: number) => any[][]
 export const compact: ArrayTransformFn
+export const deep_compare: (objectOne: any, objectTwo: any) => boolean
 export const diff: (arrayOne: any[], arrayTwo: any[]) => any[]
 export const duplicates: (arrayOne: any[], arrayTwo: any[]) => any[]
 export const every: ArrayShortrCircuitFn | ObjectShortrCircuitFn
